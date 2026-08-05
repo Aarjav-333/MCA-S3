@@ -50,7 +50,26 @@ prediction = model.predict(new_sample)
 # 0 → Setosa
 # 1 → Versicolor
 # 2 → Virginica
-print("New sample prediction : ",prediction
+print("New sample prediction : ",iris.target_names[prediction[0]]
       )
 
 
+new = [[4.9, 3.1, 1.5, 0.1]]
+prediction = model.predict(new_sample)
+print(iris.target_names[prediction[0]])
+
+
+new_samples = [
+    [4.9, 3.1, 1.5, 0.1],
+    [6.0, 2.9, 4.5, 1.5],
+    [6.7, 3.1, 5.6, 2.4]
+]
+
+predictions = model.predict(new_samples)
+
+for p in predictions:
+    print(iris.target_names[p])
+    
+    
+    
+    
