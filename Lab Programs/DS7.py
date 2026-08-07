@@ -7,6 +7,33 @@ print(matrix)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # import numpy as np
 
 # # Create a 5x5 zero matrix
