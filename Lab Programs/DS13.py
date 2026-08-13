@@ -1,4 +1,3 @@
-#Write a python prgm to predict diabetics using knn classification
 # Write a Python program to predict diabetes using KNN
 
 import pandas as pd
